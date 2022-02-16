@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Wisorline</title>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="site-container">
+    <header class="header">
+  <div class="header__pc">
+    <div class="container container--topper">
+      <div class="header__inner">
+        <div class="header__phone">
+          <button class="btn btn--border header__phone-btn">
+            <img class="header__phone-icon" src="img/call1.png" alt="">
+          </button>
+          <span class="header__phone-text">Заказать звонок</span>
+        </div>
+        <div class="header__logo">
+          <img class="header__logo-img" src="img/logo.png" alt="logo">
+        </div>
+        <a class="btn btn--border header__acc-btn" href="#">
+          <span>Личный кабинет</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="header__mob">
+    <div class="container">
+      <div class="header__inner">
+        <button class="menu-burger" id="burger-menu">
+          <span class="menu-burger__el"></span>
+        </button>
+        <div class="header__logo">
+          <img class="header__logo-img" src="img/logo.png" alt="logo">
+        </div>
+        <a class="header__phone" href="#">
+          <img class="header__phone-icon" src="img/call1.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="mob-menu">
+    <div class="mob-menu__inner">
+      <nav class="nav">
+        <a class="nav__link" href="#about">О платформе</a>
+        <a class="nav__link" href="#advantages">Преимущества аренды</a>
+        <a class="nav__link" href="#contains">Что включает аренда</a>
+        <a class="nav__link" href="#functional">Функционал</a>
+        <a class="nav__link" href="#footer">Контакты</a>
+      </nav>
+      <a class="btn btn--border mob-menu__btn-profile" href="#">
+        <span>Личный кабинет</span>
+      </a>
+    </div>
+  </div>
+</header>
+
+    <div class="anchor-nav">
+  <a class="anchor-nav__link anchor-nav__link--active" href="#hero">
+    <span>01</span>
+  </a>
+  <a class="anchor-nav__link" href="#about"> <!---->
+    <span>02</span>
+  </a>
+  <a class="anchor-nav__link" href="#advantages">
+    <span>03</span>
+  </a>
+  <a class="anchor-nav__link" href="#contains"> <!---->
+    <span>04</span>
+  </a>
+  <a class="anchor-nav__link" href="#functional">
+    <span>05</span>
+  </a>
+  <a class="anchor-nav__link" href="#request"> <!---->
+    <span>06</span>
+  </a>
+  <a class="anchor-nav__link" href="#footer">
+    <span>07</span>
+  </a>
+</div>
+
+    <section class="hero" id="hero">
+  <div class="hero__inner">
+    <div class="hero__hint">
+      betting platform
+    </div>
+    <h1 class="hero__title">
+      Wisorline — <span class="color-primary">мощная</span>
+      <span class="hero__title-linear">платформа для букмекеров</span>
+    </h1>
+    <h3 class="hero__subtitle">
+      Наша платформа позволит сделать ваш букмекерский <span class="hero__subtitle-highlight">бизнес успешным.</span>
+      Мы предоставляем широкую линию <span class="hero__subtitle-highlight">с более 100 видами</span> спорта.
+    </h3>
+    <button class="btn btn--bg-primary hero__btn js-open-modal" data-modal="request-modal">
+      <span>оставить заявку</span>
+    </button>
+  </div>
+  <div class="scroll-hint">
+    <span class="scroll-hint__text">scroll down</span>
+    <img class="scroll-hint__arrow" src="img/arrow-down.png" alt="">
+  </div>
+</section>
+
+    <section class="about" id="about">
+  <div class="container about__container">
+    <div class="about__inner">
+      <div class="about__content">
+        <div class="about__hint">
+          about the platform
+        </div>
+        <h2 class="about__title">
+          О платформе <span class="color-primary">Wisorline</span>
+        </h2>
+        <div class="about__text">
+          <p><span class="color-primary about__text-accent">Мы предоставляем в аренду линии,</span> как для наземных букмекерских контор,
+            так и для онлайн букмекеров по всему миру. Мы являемся надежными партнерами в индустрии ставок уже более чем
+            для 99 успешных букмекерских контор из разных стран. </p>
+          <p>Аренда спортсбука от Wisorline позволит запустить вашу букмекерскую контору в короткие сроки и на высшем
+            уровне. Букмекерская линия содержит в себе широкий выбор спортивных событий и разнообразие
+            коэффициентов. </p>
+        </div>
+      </div>
+      <div class="about__img">
+        <img class="about__img-img" src="img/iPad.png" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="advantages" id="advantages">
+  <div class="container advantages__container">
+    <div class="advantages__block advantages__block--list">
+      <div class="advantages__hint advantages__hint--list">
+        Advantages of renting
+      </div>
+      <h2 class="advantages__title advantages__title--list">
+        <span class="color-primary">Преимущества</span> аренды
+      </h2>
+      <div class="advantages-box">
+        <div class="advantages-box__col advantages-box__col--first">
+          <div class="advantage-item advantage-item--col-first">
+            <div class="advantage-item__title">Готовое решение</div>
+            <div class="advantage-item__text">
+              Вы получите в аренду свою готовую линию в короткие сроки. Это гораздо быстрее и удобнее, чем нанимать
+              разработчиков и создавать линию с нуля.
+            </div>
+            <div class="rhombus-decor rhombus-decor--abs rhombus-decor--md advantage-item__decor">
+              <div class="rhombus-decor__item"></div>
+            </div>
+          </div>
+          <div class="advantage-item advantage-item--col-first">
+            <div class="advantage-item__title">Удобный интерфейс</div>
+            <div class="advantage-item__text">
+              Букмекерская линия имеет понятный, удобный и современный интерфейс. Платформа протестирована как
+              профессионалами, так и обычными пользователями.
+            </div>
+            <div class="rhombus-decor rhombus-decor--abs rhombus-decor--md advantage-item__decor">
+              <div class="rhombus-decor__item"></div>
+            </div>
+          </div>
+          <div class="advantage-item advantage-item--col-first">
+            <div class="advantage-item__title">События Live</div>
+            <div class="advantage-item__text">
+              Линия для букмекерской конторы работает в режиме реального времени с точностью до 1 секунды. Это
+              значительно упрощает отслеживание статистики и обновления коэффициентов.
+            </div>
+            <div class="rhombus-decor rhombus-decor--abs rhombus-decor--md advantage-item__decor">
+              <div class="rhombus-decor__item"></div>
+            </div>
+          </div>
+        </div>
+        <div class="advantages-box__col advantages-box__col--second">
+          <div class="advantage-item advantage-item--col-second">
+            <div class="advantage-item__title">Служба поддержки</div>
+            <div class="advantage-item__text">
+              Мы будем с вами на связи 24/7. Если возникнут вопросы, наша служба поддержки всегда вам поможет
+              разобраться.
+            </div>
+            <div class="rhombus-decor rhombus-decor--abs rhombus-decor--md advantage-item__decor advantage-item__decor--left">
+              <div class="rhombus-decor__item"></div>
+            </div>
+          </div>
+          <div class="advantage-item advantage-item--col-second">
+            <div class="advantage-item__title">100+ видов спорта</div>
+            <div class="advantage-item__text">
+              В линии есть полное разнообразие для совершения ставок, более 100 видов спорта и огромное количество
+              спортивных событий из всех точек мира.
+            </div>
+            <div class="rhombus-decor rhombus-decor--abs rhombus-decor--md advantage-item__decor advantage-item__decor--left">
+              <div class="rhombus-decor__item"></div>
+            </div>
+          </div>
+          <div class="advantage-item advantage-item--col-second">
+            <div class="advantage-item__title">Удобная интеграция</div>
+            <div class="advantage-item__text">
+              Арендуя спортивную линию от Wisorline, ваша интеграция по API будет максимально быстрой и комфортной.
+            </div>
+            <div class="rhombus-decor rhombus-decor--abs rhombus-decor--md advantage-item__decor advantage-item__decor--left">
+              <div class="rhombus-decor__item"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="advantages__block advantages__block--desc">
+    <div class="advantages-desc">
+      <div class="advantages-desc__col">
+        <img class="advantages-desc__img" src="img/ball.png" alt="">
+      </div>
+      <div class="advantages-desc__col">
+        <div class="block-hint block-hint--dark advantages-desc__hint">
+          sports line
+        </div>
+        <h2 class="section-title advantages-desc__title">
+          Интегрируйте
+          <span class="color-primary">спортивную линию</span>
+          на свой сайт всего
+          в два клика
+        </h2>
+        <div class="advantages-desc__text">
+          <p>
+            С помощью нашей гибкой структуры вы сможете за максимально короткий промежуток времени и с минимальными
+            трудностями произвести интеграцию на свой сайт. Вам необходимо только оставить заявку на сайте, а наши
+            профессионалы сделают свое дело быстро и качественно. Позвольте вашему букмекерскому бизнесу стать успешным
+            и прибыльным!
+          </p>
+        </div>
+        <button class="btn btn--bg-primary advantages-desc__btn js-open-modal" data-modal="request-modal">
+          <span>оставить заявку</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="rhombus-decor rhombus-decor--abs rhombus-decor--sm advantages__decor1">
+    <div class="rhombus-decor__item"></div>
+  </div>
+  <div class="rhombus-decor rhombus-decor--abs rhombus-decor--sm advantages__decor2">
+    <div class="rhombus-decor__item"></div>
+  </div>
+
+</section>
+
+    <section class="contains" id="contains">
+  <div class="container contains__container">
+    <div class="contains__inner">
+      <div class="block-hint contains__hint">
+        contains the platform
+      </div>
+      <h2 class="section-title contains__title">
+        <span class="color-primary">Что включает</span> аренда спортбука
+      </h2>
+      <div class="contains-list">
+        <div class="contain-item">
+          <div class="rhombus-decor rhombus-decor--count">
+            <span class="rhombus-decor__number">01</span>
+            <div class="rhombus-decor__item"></div>
+          </div>
+          <div class="contain-item__text">
+            Все виды спорта <br>
+            + киберспорт
+          </div>
+        </div>
+        <div class="contain-item">
+          <div class="rhombus-decor rhombus-decor--dark rhombus-decor--count">
+            <span class="rhombus-decor__number">02</span>
+            <div class="rhombus-decor__item rhombus-decor__item--dark"></div>
+          </div>
+          <div class="contain-item__text">
+            Работа <br>
+            в режиме live
+          </div>
+        </div>
+        <div class="contain-item">
+          <div class="rhombus-decor rhombus-decor--count">
+            <span class="rhombus-decor__number">03</span>
+            <div class="rhombus-decor__item"></div>
+          </div>
+          <div class="contain-item__text">
+            Мультиязычность
+          </div>
+        </div>
+        <div class="contain-item">
+          <div class="rhombus-decor rhombus-decor--dark rhombus-decor--count">
+            <span class="rhombus-decor__number">04</span>
+            <div class="rhombus-decor__item rhombus-decor__item--dark"></div>
+          </div>
+          <div class="contain-item__text">
+            Чемпионаты всех стран
+          </div>
+        </div>
+        <div class="contain-item">
+          <div class="rhombus-decor rhombus-decor--count">
+            <span class="rhombus-decor__number">05</span>
+            <div class="rhombus-decor__item"></div>
+          </div>
+          <div class="contain-item__text">
+            Безлимитные <br>
+            запросы
+          </div>
+        </div>
+        <div class="contain-item">
+          <div class="rhombus-decor rhombus-decor--dark rhombus-decor--count">
+            <span class="rhombus-decor__number">06</span>
+            <div class="rhombus-decor__item rhombus-decor__item--dark"></div>
+          </div>
+          <div class="contain-item__text">
+            Служба <br>
+            поддержки
+          </div>
+        </div>
+        <div class="contain-item">
+          <div class="rhombus-decor rhombus-decor--count">
+            <span class="rhombus-decor__number">07</span>
+            <div class="rhombus-decor__item"></div>
+          </div>
+          <div class="contain-item__text">
+            Результаты спортивных <br>
+            событий
+          </div>
+        </div>
+        <div class="contain-item">
+          <div class="rhombus-decor rhombus-decor--dark rhombus-decor--count">
+            <span class="rhombus-decor__number">08</span>
+            <div class="rhombus-decor__item rhombus-decor__item--dark"></div>
+          </div>
+          <div class="contain-item__text">
+            Автоматический <br>
+            расчет ставок
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="functional" id="functional">
+  <div class="container">
+    <div class="functional__inner">
+      <div class="block-hint block-hint--center block-hint--dark">functional</div>
+      <div class="section-title section-title--center functional__title"><span class="color-primary">Функционал</span>
+        спортивной линии
+      </div>
+      <div class="functional__box">
+        <div class="functional__box-col">
+          <div class="functional-item functional-item--col-first">
+            <div class="functional-item__head functional-item__head--col-first">
+              <div class="functional-item__title">
+                Быстрая ставка
+              </div>
+              <img class="functional-item__icon functional-item__icon--right" src="img/functional/clock.png" alt="">
+            </div>
+            <div class="functional-item__text">
+              Позволяет пользователю установить сумму ставки и далее размещать пари одним щелчком мыши.
+            </div>
+          </div>
+          <div class="functional-item functional-item--col-first">
+            <div class="functional-item__head functional-item__head--col-first">
+              <div class="functional-item__title">
+                Изменить ставку
+              </div>
+              <img class="functional-item__icon functional-item__icon--right" src="img/functional/shuffle.png" alt="">
+            </div>
+            <div class="functional-item__text">
+              Пользователи могут изменять события в уже сделанных комбинированных ставках (экспрессах и др.).
+            </div>
+          </div>
+          <div class="functional-item functional-item--col-first">
+            <div class="functional-item__head functional-item__head--col-first">
+              <div class="functional-item__title">
+                Мульти-ставки
+              </div>
+              <img class="functional-item__icon functional-item__icon--right" src="img/functional/tokens.png" alt="">
+            </div>
+            <div class="functional-item__text">
+              Позволяет пользователю установить сумму ставки и далее размещать пари одним щелчком мыши.
+            </div>
+          </div>
+          <div class="functional-item functional-item--col-first">
+            <div class="functional-item__head functional-item__head--col-first">
+              <div class="functional-item__title">
+                Прогноз экспертов
+              </div>
+              <img class="functional-item__icon functional-item__icon--right" src="img/functional/analytics.png" alt="">
+            </div>
+            <div class="functional-item__text">
+              Пользователи могут изменять события в уже сделанных комбинированных ставках (экспрессах и др.).
+            </div>
+          </div>
+        </div>
+        <div class="functional__box-col">
+          <div class="functional-item">
+            <div class="functional-item__head">
+              <img class="functional-item__icon" src="img/functional/loupe.png" alt="">
+              <div class="functional-item__title">
+                Поиск событий
+              </div>
+            </div>
+            <div class="functional-item__text">
+              Пользователь может найти необходимое событие по названию на странице
+            </div>
+          </div>
+          <div class="functional-item">
+            <div class="functional-item__head">
+              <img class="functional-item__icon" src="img/functional/favourite.png" alt="">
+              <div class="functional-item__title">
+                Внести событие
+                в избранное
+              </div>
+            </div>
+            <div class="functional-item__text">
+              Пользователь может добавлять в список избранных разные чемпионаты и события
+            </div>
+          </div>
+          <div class="functional-item">
+            <div class="functional-item__head">
+              <img class="functional-item__icon" src="img/functional/check.png" alt="">
+              <div class="functional-item__title">
+                Бронирование
+                ставки
+              </div>
+            </div>
+            <div class="functional-item__text">
+              Возможность зарезервировать ставку, чтобы затем сделать ее в букмекерской точке
+            </div>
+          </div>
+          <div class="functional-item">
+            <div class="functional-item__head">
+              <img class="functional-item__icon" src="img/functional/money.png" alt="">
+              <div class="functional-item__title">
+                Система
+                бонусов
+              </div>
+            </div>
+            <div class="functional-item__text">
+              Кешбэк и бонус за мультиставку, бонус на экспресс, спортивные бонусы (фрибеты, бонусы с отыгрышем)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="request" id="request">
+  <div class="container">
+    <div class="request__inner">
+      <div class="block-hint block-hint--center">sports line rental</div>
+      <h2 class="section-title section-title--center request__title"><span class="color-primary">Хотите арендовать</span>
+        спортивную линию?  Или остались вопросы?
+      </h2>
+      <span class="request__subtitle">Оставьте заявку и мы свяжемся с Вами в ближайшее время</span>
+      <button class="btn btn--bg-primary request__btn" id="btn-to-request">
+        <span>оставить заявку</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+    <footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <div class="block-hint block-hint--dark">our contacts</div>
+        <h2 class="section-title footer__title">
+          Наши <span class="color-primary">контакты</span>
+        </h2>
+        <div class="contacts">
+          <div class="contacts__title">Свяжитесь с нами любым удобным для Вас способом</div>
+          <div class="contacts__list">
+            <div class="contacts__item">
+              <a class="contacts__item-text" href="javascript:void(0)">+7 (999) 999-99-99</a>
+            </div>
+            <div class="contacts__item contacts__item--mail">
+              <a class="contacts__item-text" href="javascript:void(0)">vashapochta@mail.ru</a>
+            </div>
+            <div class="contacts__item contacts__item--address">
+              <span class="contacts__item-text">г. Пример, ул. Примерная, д.48, офис 25</span>
+            </div>
+          </div>
+        </div>
+        <div class="socials footer__socials">
+          <div class="socials__item">
+            <div class="rhombus-decor rhombus-decor--socials">
+              <a class="rhombus-decor__item rhombus-decor__item--socials" href="#">
+                <svg class="rhombus-decor__icon">
+                  <use xlink:href="img/sprite.svg#vk"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="socials__item">
+            <div class="rhombus-decor rhombus-decor--socials">
+              <a class="rhombus-decor__item rhombus-decor__item--socials" href="#">
+                <svg class="rhombus-decor__icon">
+                  <use xlink:href="img/sprite.svg#inst"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="socials__item">
+            <div class="rhombus-decor rhombus-decor--socials">
+              <a class="rhombus-decor__item rhombus-decor__item--socials" href="#">
+                <svg class="rhombus-decor__icon">
+                  <use xlink:href="img/sprite.svg#fb"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="socials__item">
+            <div class="rhombus-decor rhombus-decor--socials">
+              <a class="rhombus-decor__item rhombus-decor__item--socials" href="#">
+                <svg class="rhombus-decor__icon">
+                  <use xlink:href="img/sprite.svg#twitter"></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__col">
+        <div class="contact-form contact-form-footer">
+          <div class="contact-form__content">
+            <h2 class="section-title contact-form__title">
+              Остались <span class="color-primary">вопросы?</span>
+            </h2>
+            <h3 class="contact-form__subtitle">
+              Оставьте заявку на сайте и наш менеджер в ближашее
+              время Вам перезвонит
+            </h3>
+            <form action="" class="contact-form__form" autocomplete="off">
+              <div class="custom-field custom-field--input-name contact-form__input-wrap">
+                <input type="text" name="name" class="custom-field__input" placeholder="Введите Ваше имя">
+              </div>
+              <div class="custom-field custom-field--input-tel contact-form__input-wrap">
+                <input type="tel" name="tel" class="custom-field__input" placeholder="Введите Ваш телефон">
+              </div>
+              <button class="btn btn--bg-primary contact-form__btn">
+                <span>оставить заявку</span>
+              </button>
+            </form>
+          </div>
+          <div class="contact-form__bg contact-form__bg--dark"></div>
+          <div class="contact-form__bg contact-form__bg--primary"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <!-- Modal request form -->
+<div class="modal" id="request-modal" aria-hidden="true">
+  <div class="modal__overlay">
+    <div class="modal__container">
+      <button class="btn modal__btn-close">
+        <svg>
+          <use xlink:href="img/sprite.svg#close"></use>
+        </svg>
+      </button>
+      <div class="modal__content">
+        <div class="contact-form contact-form--modal">
+          <div class="contact-form__content">
+            <h2 class="section-title contact-form__title contact-form__title--modal">
+              Оставьте <span class="color-primary">заявку</span>
+            </h2>
+            <h3 class="contact-form__subtitle contact-form__subtitle--modal">
+              Оставьте заявку на сайте и наш менеджер в ближашее
+              время Вам перезвонит
+            </h3>
+            <form action="" class="contact-form__form contact-form__form--modal" autocomplete="off">
+              <div class="custom-field custom-field--input-name contact-form__input-wrap">
+                <input type="text" name="name" class="custom-field__input custom-field__input--dark" placeholder="Введите Ваше имя">
+              </div>
+              <div class="custom-field custom-field--input-tel contact-form__input-wrap">
+                <input type="tel" name="tel" class="custom-field__input custom-field__input--dark" placeholder="Введите Ваш телефон">
+              </div>
+              <button class="btn btn--bg-primary contact-form__btn contact-form__btn--modal">
+                <span>оставить заявку</span>
+              </button>
+            </form>
+          </div>
+          <div class="contact-form__bg contact-form__bg--white"></div>
+          <div class="contact-form__bg contact-form__bg--primary contact-form__bg--modal-second"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal request form end-->
+
+  </div>
+  <script src="js/vendor.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/modal.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
